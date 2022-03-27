@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { TaskDialogComponent } from './component/task-dialog.component';
-
-
-
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
     TaskDialogComponent
   ],
   imports: [
-    CommonModule
+    SharedModule
   ]
 })
 export class TaskDialogModule { }
